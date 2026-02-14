@@ -213,7 +213,7 @@ jobs:
 
   build-macos:
     name: Build macOS
-    runs-on: macos-latest
+    runs-on: macos-15-intel
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
